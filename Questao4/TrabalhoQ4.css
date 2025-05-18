@@ -1,0 +1,77 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: brown;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    
+}
+h3{
+    text-align: center;
+}
+
+.pai {
+    text-align: center;
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.jogo {
+    background-color: rgb(192, 144, 85);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    width: 100%;
+
+    
+}
+
+label {
+    align-items: center;
+    height: 250px;
+    width: 240px;
+    display: block;
+    background-image: url(FundoCarta.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+input {
+    display: none;
+}
+
+#Item1:checked+label,
+#Item8:checked+label {
+    background-image: url(GatinhaFofinhabonitinha.jpeg)
+     }
+
+#Item2:checked+label,
+#Item7:checked+label {
+    background-image: url(LaranjinhaSafadoSapeca.jpeg)
+     }
+
+#Item3:checked+label,
+#Item4:checked+label {
+    background-image: url(AtlasBonitinho.jpeg)
+    
+}     
+
+#Item5:checked+label,
+#Item6:checked+label {
+    background-image: url(Semideia.jpeg);
+}     
+#Item9:checked+label,
+#Item10:checked+label{
+    background-image: url(GatinhoNoBanho.jpeg);
+}

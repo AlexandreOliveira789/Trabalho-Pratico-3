@@ -1,0 +1,49 @@
+.Pai {
+    display: grid;
+    background-color: cyan;
+    grid-template-rows: 60px auto auto 60px;
+    gap: 10px;
+    width: 100%;
+    
+    }
+
+header {
+        background-color: green;
+        width:100% ;    
+    }
+
+.Deceptacon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    
+    
+}  
+
+.Rosa {
+    height: 180px;
+    background-color: rgb(98, 12, 236);
+    
+}
+
+footer {
+    background-color: orange;
+}
+
+.Matue {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .Gorila {
+    background-color: purple;
+    height: 100px;
+    }
+
+
+    
+
+
+

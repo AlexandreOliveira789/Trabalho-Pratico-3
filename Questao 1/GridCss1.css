@@ -1,0 +1,36 @@
+
+
+.grande {
+    display: grid;
+    grid-template-columns: 80px 80px ;
+    background-color: #aaa8a8;
+    justify-content: center;
+    gap: 10px;
+    padding: 200px;
+    
+    
+    
+}
+
+.azul {
+    background-color: darkblue;
+}
+
+.amarelo {
+    background-color: rgb(241, 241, 12);
+
+}
+
+.redhotchili {
+    background-color: rgb(245, 4, 4);
+}
+
+.Verde {
+    background-color: darkgreen;
+}
+
+.b {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
